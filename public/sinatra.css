@@ -1,7 +1,11 @@
 a {
 text-decoration: none;
+color: white;
+padding: 20px;
 
 }
+
+
 
 h1{
 
@@ -18,10 +22,21 @@ h2{
 	text-align: center;
 }
 
-nav{
-	border-style: dotted;
-	color: red;
+nav {
+	border-style: solid;
+	color: gold;
 	border-width: 5px
-	border-radius: 10px;
+	border-radius: 5px;
 	text-align: center;
+	background-color: red;
+	font-size: 25px;
+	width: 75%;
+
 }
+
+p{
+	font-size: 35px;
+	text-align: right;
+}
+
+
