@@ -12,7 +12,6 @@ before do
 end
 
 
-
 get '/' do
 	@class = "home"
 	erb :home
