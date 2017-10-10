@@ -1,21 +1,23 @@
 require 'sinatra'
 
-get '/' do
+require 'sendgrid'
+
+get '/home' do
 	erb :home
 
 end
 
-get '/' do
+get '/aboutus' do
 	erb :aboutus
 
 end
 
-get '/' do
+get '/testimonials' do
 	erb :testimonials
 
 end
 
-get '/' do
+get '/contact' do
 	erb :contact
 
 end
