@@ -1,12 +1,5 @@
 require 'sinatra'
 require 'sendgrid-ruby'
-require 'dotenv/load'
-
-
-before do
-	@class =""
-end
-
 
 get '/' do
 	@class = "home"
