@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'sendgrid-ruby'
+# require 'dotenv/load'
+include SendGrid
 
 
 get '/' do
