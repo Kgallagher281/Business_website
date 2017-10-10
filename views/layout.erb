@@ -4,8 +4,14 @@
 	<link rel="stylesheet" href="/sinatra.css">
 	<title>Life Alert</title>
 </head>
-<body>
-	<img src="http://www.lifealertemergencyresponse.com/youngeradults/images/lifealertlogo_th.jpg" style="width: 400px; height: 100px;">
+<body class="<%= @class %>">
+	<img src="http://www.lifealertemergencyresponse.com/youngeradults/images/lifealertlogo_th.jpg" style="width: 300px; height: 100px;">
+
+<div class="contact">
+<p><b>For a FREE Brochure call:</b></p>
+<p><b>1-800-360-0329</b></p>
+</div>
+
 <nav>
 	<ul>
 		<a href="/">Home</a>
@@ -17,7 +23,7 @@
 
 
 
-<script src="/sinatra.js"></script>
+
 <%= yield %>						
 </body>
 </html>

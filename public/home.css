@@ -11,16 +11,6 @@ font-family: sans-serif;
 }
 
 
- {
- display: flex;
- justify-content: left;
- align-items: center;
- min-height: 100vh;
-}
-
-#clock {
- font-size: 5rem;
- letter-spacing: 0.3rem;
- color: black;
- text-shadow: 0.45rem 0.45rem 1rem rgba(0,0,0,0.4);
+.callcenter{
+	padding-left: 450px;
 }
