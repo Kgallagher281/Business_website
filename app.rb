@@ -1,8 +1,8 @@
 require 'sinatra'
 
-require 'sendgrid'
+require 'sendgrid-ruby'
 
-get '/home' do
+get '/' do
 	erb :home
 
 end

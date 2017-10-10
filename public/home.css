@@ -1,0 +1,26 @@
+h2{
+	font-size: 35px;
+	text-align: center;
+}
+
+p{
+text-align: center;
+font-size: 25px;
+font-family: sans-serif;
+
+}
+
+
+ {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ min-height: 100vh;
+}
+
+#clock {
+ font-size: 5rem;
+ letter-spacing: 0.3rem;
+ color: black;
+ text-shadow: 0.45rem 0.45rem 1rem rgba(0,0,0,0.4);
+}

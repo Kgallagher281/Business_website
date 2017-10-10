@@ -15,3 +15,6 @@ setTimeout(display, 3000);
 closebox.addEventListener('click', function(){
   message.style.display =  'none'
 })
+
+
+

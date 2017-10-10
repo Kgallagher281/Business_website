@@ -1,0 +1,14 @@
+.modal{
+	text-align: center;
+	border-style: solid;
+	border-color: gold;
+	border-radius: 10px:;
+ 	border-width: 5px;
+	padding: 5px;
+ 	background-color: red;
+ 	color: black;
+ 	width: 15%;
+ 	margin-top: 5%;
+ 	margin-left: 45%;
+ 	position: fixed;
+}
