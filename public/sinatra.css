@@ -31,7 +31,8 @@ nav {
 	text-align: center;
 	background-color: red;
 	font-size: 25px;
-	width: 75%;
+	width: 50%;
+	margin: 0 auto;
 
 }
 
@@ -41,3 +42,20 @@ p{
 }
 
 
+.modal{
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px:;
+ 	border-width: 5px;
+	padding: 5px;
+ 	box-shadow: 5px 5px 5px 5px;
+ 	background-color: white;
+ 	color: red;
+ 	width: 15%;
+ 	margin-top: 5%;
+ 	margin-left: 45%;
+ 	position: fixed;
+}
+
+}
