@@ -1,8 +1,12 @@
 require 'sinatra'
 require 'sendgrid-ruby'
 
+before do
+	@class =""
+end
 
 get '/' do
+	@class = "home"
 	erb :home
 
 end
