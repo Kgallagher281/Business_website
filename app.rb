@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sendgrid-ruby'
-
+require 'dotenv/load'
 
 get '/' do
 	erb :home
