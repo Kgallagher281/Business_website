@@ -5,6 +5,11 @@ padding: 20px;
 
 }
 
+
+
+head body{
+	font-family: 'Exo', sans-serif;
+}
 nav {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -77,7 +82,7 @@ border-width: 5px;
 
 body.about {
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Exo', sans-serif;
 	background-color: #C4AF76;
 	text-align: center;
 	/*background-image: url("https://cdn2.hubspot.net/hubfs/388539/PSL_Blog_Post_Pictures/diversity-matters-at-presbyterian-senior-living.jpg");*/*/
@@ -112,7 +117,7 @@ body.test {
 }
 
 .test .avatar {
-	border-radius: 50%;
+	border-radius: 70%;
 }
 
 .test .elderly_group{
@@ -136,6 +141,7 @@ body.test {
 	width: 29%;
 	text-align: center;
 	font-weight: lighter;
+	font-size: 20px;
 	line-height: 30px;
 	float: left;
 	padding-left: 20px;
