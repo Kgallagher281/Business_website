@@ -1,4 +1,4 @@
-a {
+ul .link {
 text-decoration: none;
 color: white;
 padding: 20px;
@@ -39,13 +39,47 @@ text-align: center;
 font-size: 25px;
 font-family: sans-serif;
 
+
 }
 
 
 body.home.callcenter{
-	padding-left: 450px;
+	padding-left: 400px;
 }
 
 
-/*This is the testimonial page CSS*/
+.services{
+text-decoration: none;
+color: red;
+padding: 20px;
+border: dotted;
+border-color: black;
+border-width: 5px;
 
+ 
+}
+
+
+.container{
+
+	width: 100%;
+	position: absolute;
+
+}
+
+
+.left{
+	float: left;
+	display: inline;
+	position: relative;
+	width: 30%;
+	margin-left: 20%;
+}
+
+
+.right{
+	float: left;
+	position: relative;
+	width: 30%;
+	margin: 0 auto;
+}
