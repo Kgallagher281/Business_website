@@ -1,6 +1,6 @@
 a {
 text-decoration: none;
-color: white;
+color: #CB4335;
 padding: 20px;
 
 }
@@ -10,22 +10,7 @@ padding: 20px;
 head body {
 	font-family: 'Exo', sans-serif;
 }
-nav {
-	/*padding-left: 20px;
-	padding-right: 20px;*/
-	/*border-style: solid;*/
-	/*color: gold;*/
-	/*border-width: 5px*/
-	/*border-radius: 5px;*/
-	text-align: center;
-	/*background-color: transparent;*/
-	font-size: 30px;
-	width: 100%;
-	margin: 0 auto;
-	border-radius: 15px;
-	font-family: 'Exo', sans-serif;
-	
-}
+
 body{
 	background-color: #B2E6D4;
 }
@@ -46,9 +31,11 @@ body{
 
 /*This is the home page CSS*/
 
+
 body.home h2{
 	font-size: 35px;
 	text-align: center;
+	margin-top: 0;
 }
 
 body.home p{
@@ -60,9 +47,9 @@ font-family: sans-serif;
 
 .services{
 text-decoration: none;
-color: red;
+color: black;
 padding: 20px;
-border: dotted;
+border: solid;
 border-color: black;
 border-width: 5px;
 }
@@ -72,8 +59,12 @@ border-width: 5px;
 
 	width: 100%;
 	position: absolute;
+	background-color: #0F8B8D;
+	padding-top: 40px;
+
 
 }
+
 
 
 .left{
@@ -217,3 +208,21 @@ body.test {
  	margin-left: 45%;
  	position: fixed;
 }
+
+#player_container{
+	margin:  auto;
+	width:600px;
+	height:350px;
+}
+
+body.home{
+	background-color: #E6AF2E;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	padding: 0;
+	margin:0;
+}
+
