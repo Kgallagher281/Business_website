@@ -9,11 +9,12 @@ function display() {
   message.style.display =  'block'
 };
 
-setTimeout(display, 3000);
+var timeoutShow = setTimeout(display, 3000);
 
 
 closebox.addEventListener('click', function(){
-  message.style.display =  'none'
+  message.style.display =  'none';
+  clearTimeout(timeoutShow);
 })
 
 
