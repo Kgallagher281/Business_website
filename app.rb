@@ -28,7 +28,7 @@ get '/testimonials' do
 end
 
 get '/contact' do
-	
+	@class= "contact"
 	erb :contact
 
 end
