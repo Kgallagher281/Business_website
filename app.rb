@@ -1,11 +1,4 @@
 require 'sinatra'
-require 'sendgrid-ruby'
-
-
-
-
-
-
 require 'dotenv/load'
 
 
