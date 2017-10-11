@@ -1,5 +1,11 @@
 require 'sinatra'
 require 'sendgrid-ruby'
+
+
+
+
+
+
 require 'dotenv/load'
 
 
@@ -15,12 +21,16 @@ get '/' do
 end
 
 get '/aboutus' do
+	@class="about"
 	erb :aboutus
+
 
 end
 
 get '/testimonials' do
+	@class = "test"
 	erb :testimonials
+
 
 end
 

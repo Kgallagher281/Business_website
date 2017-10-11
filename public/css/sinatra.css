@@ -1,0 +1,154 @@
+a {
+text-decoration: none;
+color: white;
+padding: 20px;
+
+}
+
+nav {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-style: solid;
+	color: gold;
+	border-width: 5px
+	border-radius: 5px;
+	text-align: center;
+	background-color: #CB4335;
+	font-size: 30px;
+	width: 75%;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+.contact{
+	font-size: 25px;
+	color: #CB4335;
+	float: right;
+}
+
+
+/*This is the home page CSS*/
+
+body.home h2{
+	font-size: 35px;
+	text-align: center;
+}
+
+body.home p{
+text-align: center;
+font-size: 25px;
+font-family: sans-serif;
+
+}
+
+
+body.home .callcenter{
+	padding-left: 450px;
+}
+
+body.about {
+
+	font-family: 'Lato', sans-serif;
+	background-color: #C4AF76;
+	text-align: center;
+	/*background-image: url("https://cdn2.hubspot.net/hubfs/388539/PSL_Blog_Post_Pictures/diversity-matters-at-presbyterian-senior-living.jpg");*/*/
+
+}
+
+/*.bg {
+	height: 50%;
+	width: 50%;
+
+}*/
+
+section p.about {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	padding-top: 14px;
+	padding-bottom: 1px;
+	padding-right: 109px;
+	padding-left: 58px;
+}
+
+
+
+body.test {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	margin: 3;
+	background-color: #E1B2B7;
+
+
+}
+
+
+.test .elderly_group{
+	height:600px;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.test .column_wrapper {
+	width: 100%;
+	position: relative;
+
+}
+
+
+
+.test .text_column{
+	width: 29%;
+	text-align: center;
+	font-weight: lighter;
+	line-height: 30px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	column-fill: balance;
+	background-color: #E1B2B7;
+/*	position:relative;
+*/	
+}
+/*section.about {
+	font-family: 'Lato', sans-serif;
+}*/
+
+
+
+/*.about {
+	text-align: center;
+	height: 100%;
+}*/
+
+
+.footer{
+	 position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100px;
+}
+
+.footerContainer {
+	position:relative;
+    width:100%;
+    height:100px;
+    /*background:url('https://static.pexels.com/photos/159935/pexels-photo-159935.jpeg');*/
+}
+
+.imginthefooter{
+	background:url('https://static.pexels.com/photos/159935/pexels-photo-159935.jpeg') no-repeat;
+    width:100px;
+    height:300px;
+    top: -108px;  /* Position element */
+    right: 150px; /* Position element */ 
+    position: absolute;
+}
+
+/*This is the testimonial page CSS*/
+
