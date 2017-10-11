@@ -1,9 +1,5 @@
 require 'sinatra'
 require 'sendgrid-ruby'
-
-# require 'dotenv/load'
-include 'SendGrid'
-
 require 'dotenv/load'
 
 
@@ -29,6 +25,7 @@ get '/testimonials' do
 end
 
 get '/contact' do
+	
 	erb :contact
 
 end
