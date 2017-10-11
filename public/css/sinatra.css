@@ -19,12 +19,22 @@ nav {
 	margin: 0 auto;
 	border-radius: 15px;
 }
+body{
+	background-color: #B2E6D4;
+}
+.counter{
+	display: inline-block;
+	width: 25%;
+	background-color: red;
+}
 
 .contact{
 	font-size: 25px;
 	color: #CB4335;
 	float: right;
 }
+
+
 
 
 /*This is the home page CSS*/
@@ -78,7 +88,7 @@ border-width: 5px;
 body.about {
 
 	font-family: 'Lato', sans-serif;
-	background-color: #C4AF76;
+	background-color: #B2E6D4;
 	text-align: center;
 	/*background-image: url("https://cdn2.hubspot.net/hubfs/388539/PSL_Blog_Post_Pictures/diversity-matters-at-presbyterian-senior-living.jpg");*/*/
 
@@ -106,7 +116,7 @@ body.test {
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 	margin: 3;
-	background-color: #C4AF76;
+	background-color: #B2E6D4;
 
 
 }
@@ -143,7 +153,7 @@ body.test {
 	color: black;
 	font-family: 'Lato', sans-serif;
 	column-fill: balance;
-	background-color: #C4AF76;
+	background-color: #B2E6D4;
 /*	position:relative;
 */	
 }
