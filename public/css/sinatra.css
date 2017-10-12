@@ -1,8 +1,16 @@
+
+/*THIS IS THE LAYOUT ERB*/
+
 a {
 text-decoration: none;
 color: #CB4335 ;
 padding: 20px;
 
+}
+
+body{
+	margin: 0 auto;
+	font-family: 'Exo'
 }
 
 nav {
@@ -12,29 +20,49 @@ nav {
     margin: 0 auto;
     background-color: #EDDDD4 ;
     padding-bottom: 50px;
+    font-family: 'Exo'
 
 }
 
-.container1{
-    background-color: #EDDDD4 ;
-    padding-bottom: 50px;
+
+html{
+    padding: 0;
+    margin:0;
 }
+
 
 .container2{
-    background-color: #EDDDD4 ;
+    background-color: #EDDDD4;
+    font-family: 'Exo';
     
 }
-}
+
 
 .contact{
-    font-size: 25px;
+    font-size: 20px;
     color: #CB4335 ;
     float: right;
+    font-family: 'Exo'
 }
+
+
+
+
 
 
 /*This is the home page CSS*/
 
+.container1{
+    background-color: #EDDDD4 ;
+    padding-bottom: 25px;
+}
+
+#player_container{
+    margin:  auto;
+    width:600px;
+    height:350px;
+
+}
 
 body.home h2{
     font-size: 35px;
@@ -44,10 +72,17 @@ body.home h2{
 
 body.home p{
 text-align: center;
-font-size: 25px;
-font-family: sans-serif;
+font-size: 20px;
+font-family: 'Exo';
 
 }
+
+body.home{
+    background-color: #0F8B8D ;
+    margin: 0;
+    padding: 0;
+}
+
 
 .services{
 text-decoration: none;
@@ -64,13 +99,10 @@ border-width: 5px;
     width: 100%;
     position: absolute;
     background-color: #0F8B8D ;
-    padding-top: 40px;
+    padding-top: -10px;
 
 
 }
-
-
-
 
 .left{
     float: left;
@@ -88,30 +120,55 @@ border-width: 5px;
     margin: 0 auto;
 }
 
-body.about {
 
-    font-family: 'Lato', sans-serif;
-    background-color: #C4AF76 ;
-    text-align: center;
-    
-}
+
+
+
+
+/*About Page CSS*/
 
 
 section p.about {
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo', sans-serif;
     padding-top: 14px;
     padding-bottom: 1px;
     padding-right: 109px;
     padding-left: 58px;
 }
 
+body.about {
+
+    font-family: 'Exo', sans-serif;
+    background-color: #C4AF76 ;
+    
+ }
+
+ .bg{
+ 	width: 100%;
+
+ }
+
+ .image{
+ 	margin-left: 26%;
+ 	padding-bottom: 50px;
+ }
+
+ .col_1{
+ 	text-align: center;
+ 	font-size: 30px;
+ }
+ 
 
 
+
+
+
+/*Testimonal Page CSS*/
 
 body.test {
     color: black;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo', sans-serif;
     font-size: 30px;
     margin: 3;
     background-color: #E1B2B7 ;
@@ -119,11 +176,15 @@ body.test {
 
 }
 
+.avatar{
+	border-radius: 50%;
+}
+
 
 .test .elderly_group{
     height:600px;
     width: 1200px;
-    margin: 0 auto;
+    padding-left: 150px;
 
 }
 
@@ -132,9 +193,6 @@ body.test {
     position: relative;
 
 }
-
-
-
 
 .test .text_column{
     width: 29%;
@@ -145,7 +203,7 @@ body.test {
     padding-left: 20px;
     padding-right: 20px;
     color: black;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo', sans-serif;
     column-fill: balance;
     background-color: #E1B2B7 ;
 }
@@ -160,22 +218,17 @@ body.test {
    height:100px;
 }
 
-.footerContainer {
-    position:relative;
-   width:100%;
-   height:100px;
-   }
+/*.footerContainer {*/
+    /*position:relative;*/
+   /*width:100%;*/
+   /*height:100px;*/
+  
 
-.imginthefooter{
-    background:url('https://static.pexels.com/photos/159935/pexels-photo-159935.jpeg') no-repeat;
-   width:100px;
-   height:300px;
-   top: -108px;  
-   right: 150px;  
-   position: absolute;
-}
 
-/*This is the testimonial page CSS*/
+
+
+/*This is the Contact Us page CSS*/
+
 
 
 .modal{
@@ -185,27 +238,20 @@ body.test {
     border-radius: 10px:;
     border-width: 5px;
     padding: 5px;
-    background-color: #CB4335 ;
+    background-color: #EDDDD4 ;
     color: black;
-    width: 15%;
+    width: 40%;
     margin-top: 5%;
-    margin-left: 45%;
-    position: fixed;
+    margin-left: 28%;
+    position: absolute;
 }
 
-#player_container{
-    margin:  auto;
-    width:600px;
-    height:350px;
+.callcenter{
+	margin-right: 200px;
+	padding-right: 200px;
+	width: 100%;
 }
 
-body.home{
-    background-color: #E6AF2E ;
-    margin: 0;
-    padding: 0;
-}
 
-html{
-    padding: 0;
-    margin:0;
-}
+/*THIS IS THE END OF THE CSS*/
+	
